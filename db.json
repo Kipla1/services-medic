@@ -1,9 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "services": [
+    {
+      "icon": "Brain",
+      "title": "AI Symptom Checker",
+      "description": "Describe your symptoms and get intelligent recommendations for specialist consultations.",
+      "features": ["Smart symptom analysis", "Specialist matching", "Instant results"],
+      "variant": "medical"
+    },
+    {
+      "icon": "UserCheck",
+      "title": "Specialist Consultants",
+      "description": "Connect with verified medical specialists across various fields of medicine.",
+      "features": ["Board-certified doctors", "Multiple specialties", "Secure consultations"],
+      "variant": "health"
+    },
+    {
+      "icon": "MapPin",
+      "title": "Pharmacy Locator",
+      "description": "Find the nearest pharmacies and chemists with real-time availability.",
+      "features": ["GPS-based search", "Real-time inventory", "Prescription tracking"],
+      "variant": "medical"
+    },
+    {
+      "icon": "Building2",
+      "title": "Hospital Finder",
+      "description": "Locate nearby hospitals and medical facilities with emergency services.",
+      "features": ["Emergency services", "Facility ratings", "Distance tracking"],
+      "variant": "health"
+    },
+    {
+      "icon": "Calendar",
+      "title": "Appointment Booking",
+      "description": "Schedule appointments with specialists at your convenience.",
+      "features": ["Real-time booking", "Calendar sync", "Reminder notifications"],
+      "variant": "medical"
+    },
+    {
+      "icon": "CreditCard",
+      "title": "Secure Payments",
+      "description": "Safe and transparent payment processing for consultation fees.",
+      "features": ["Secure transactions", "Revenue sharing", "Multiple payment methods"],
+      "variant": "health"
+    },
+    {
+      "icon": "Phone",
+      "title": "Direct Calling",
+      "description": "Make direct calls to consultants through our secure platform.",
+      "features": ["In-app calling", "HD voice quality", "Call recording"],
+      "variant": "medical"
+    },
+    {
+      "icon": "Video",
+      "title": "Video Consultations",
+      "description": "Google Meet integration with AI-powered meeting summaries.",
+      "features": ["HD video calls", "Meeting summaries", "Read AI integration"],
+      "variant": "health"
+    }
+  ]
 }
